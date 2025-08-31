@@ -1,12 +1,12 @@
 /**
  * Represents a side capacity.
  */
-export declare type sideCapacity = 'aura' | 'threat';
+export declare type sideCapacity = 'aura' | 'threat' | 'guard' | 'weakness' | 'break' | 'kiss' | 'poisonous';
 
 /**
  * Represents a card capacity.
  */
-export declare type cardCapacity = 'run' | 'grow' | 'death' | 'burdenEarth' | 'treason';
+export declare type cardCapacity = 'run' | 'grow' | 'death' | 'burdenEarth' | 'treason' | 'requiem' | 'poison';
 
 /**
  * Represents a card type.
