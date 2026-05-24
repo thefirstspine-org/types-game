@@ -8,27 +8,27 @@ export interface ICardStat {
   /**
    * Top stats.
    */
-  top: ICardSideStat;
+  top?: ICardSideStat;
 
   /**
    * Right stats.
    */
-  right: ICardSideStat;
+  right?: ICardSideStat;
 
   /**
    * Bottom stats.
    */
-  bottom: ICardSideStat;
+  bottom?: ICardSideStat;
 
   /**
    * Left stats.
    */
-  left: ICardSideStat;
+  left?: ICardSideStat;
 
   /**
    * The life of the card.
    */
-  life: number;
+  life?: number;
 
   /**
    * The capacities the card has.
